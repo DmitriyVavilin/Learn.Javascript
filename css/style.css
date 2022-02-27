@@ -1,8 +1,31 @@
 body {
-    background: #ccc;
+    background: #fff;
 }
 
 .title {
-    font-size: 20px;
-    color: aqua;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
 }
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .discription {
+      font-size: 20px;
+      color: #000;
+  }
+
+  .discription span {
+      color: red;
+  }
+
+  .task {
+      display: flex;
+  }
+
+  .before {
+      margin-right: 50px;
+  }

@@ -17,6 +17,7 @@
     Вам нужно получить из таблицы <span>table</span> все диагональные <span>td</span> и выделить их, используя код:
 </p>
 
+<!--ЗАДАЧА 1-->
 <div class="table">
     <div class="table__before">
         <table>
@@ -97,7 +98,9 @@
       </table>
     </div>
 </div>
+<!--//ЗАДАЧА 1-->
 
+<!--ЗАДАЧА 2-->
 <div class="subtitle">Задача: 2</div>
 <p class="discription">У нас есть дерево, структурированное как вложенные списки <span>ul/li</span>.
 
@@ -141,8 +144,45 @@
     </ul>
   </li>
 </ul>
+<!--//ЗАДАЧА 2-->
 
+<!--ЗАДАЧА 3-->
+<div class="subtitle">Задача: 3</div>
+<p class="discription">
+  Сделайте все внешние ссылки оранжевыми, изменяя их свойство <span>style.</span>
 
+Ссылка является внешней, если:
+
+Её <span>href</span> содержит <span>://</span>
+Но не начинается с<span> http://internal.com.</span>
+Пример:
+</p>
+
+<div class="list">
+  <div class="list__before">
+    <a name="list">one list</a>
+<ul>
+  <li><a href="http://google.com">http://google.com</a></li>
+  <li><a href="/tutorial">/tutorial.html</a></li>
+  <li><a href="local/path">local/path</a></li>
+  <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+  <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+  <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+</ul>
+  </div>
+  <div class="list__after">
+    <a name="list">two list</a>
+<ul>
+  <li><a class="js-link" href="http://google.com">http://google.com</a></li>
+  <li><a class="js-link" href="/tutorial">/tutorial.html</a></li>
+  <li><a class="js-link" href="local/path">local/path</a></li>
+  <li><a class="js-link" href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+  <li><a class="js-link" href="http://nodejs.org">http://nodejs.org</a></li>
+  <li><a class="js-link" href="http://internal.com/test">http://internal.com/test</a></li>
+</ul>
+  </div>
+</div>
+<!--//ЗАДАЧА 3-->
 
 <script src="Javascript/app.js"></script>
 </body>

@@ -1,4 +1,5 @@
 body {
+    font-size: 15px;
     background: #fff;
 }
 
@@ -23,24 +24,44 @@ body {
     color: #000;
 }
 
+/*зАДАЧА 1
+============*/
+
 table, td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
+}
 
-  .discription {
-      font-size: 20px;
-      color: #000;
-  }
+.discription {
+    font-size: 20px;
+    color: #000;
+}
 
-  .discription span {
-      color: red;
-  }
+.discription span {
+    color: red;
+}
 
-  .table {
-      display: flex;
-  }
+.table {
+    display: flex;
+}
 
-  .table__before {
-      margin-right: 50px;
-  }
+.table__before {
+    margin-right: 50px;
+}
+
+/*//зАДАЧА 1
+============*/
+
+/*зАДАЧА 3
+============*/
+
+.list {
+    display: flex;
+}
+
+.list__before {
+    margin-right: 50px;
+}
+
+/*//зАДАЧА 3
+============*/
